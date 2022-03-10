@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "*.rmd": "markdown",
+    "stdexcept": "cpp",
+    "__locale": "cpp",
+    "fstream": "cpp"
+  }
+}

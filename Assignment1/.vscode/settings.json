@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "*.rmd": "markdown",
+    "iosfwd": "cpp",
+    "ostream": "cpp",
+    "list": "cpp"
+  }
+}
