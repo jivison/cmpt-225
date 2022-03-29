@@ -1,10 +1,10 @@
-all: translate
+all: main
 
-translate: WordPair.o ElementAlreadyExistsException.o ElementDoesNotExistException.o EmptyDataCollectionException.o BST.h BSTNode.h Dictionary.h Translator.o 
-	g++ -Wall -o translate Translator.o WordPair.o ElementAlreadyExistsException.o ElementDoesNotExistException.o EmptyDataCollectionException.o
+main: Main.o ElementAlreadyExistsException.o ElementDoesNotExistException.o EmptyDataCollectionException.o
+	g++ -Wall -o main Main.o ElementAlreadyExistsException.o ElementDoesNotExistException.o EmptyDataCollectionException.o
 
-Translator.o: Translator.cpp
-	g++ -Wall -c Translator.cpp
+Main.o: Main.cpp
+	g++ -Wall -c Main.cpp
 		
 WordPair.o: WordPair.h WordPair.cpp
 	g++ -Wall -c WordPair.cpp

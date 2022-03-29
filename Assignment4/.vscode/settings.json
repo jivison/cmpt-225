@@ -1,0 +1,19 @@
+{
+  "files.associations": {
+    "*.rmd": "markdown",
+    "__bit_reference": "cpp",
+    "__split_buffer": "cpp",
+    "string": "cpp",
+    "vector": "cpp",
+    "istream": "cpp",
+    "algorithm": "cpp",
+    "array": "cpp",
+    "functional": "cpp",
+    "memory": "cpp",
+    "chrono": "cpp",
+    "ostream": "cpp",
+    "__locale": "cpp",
+    "locale": "cpp",
+    "iostream": "cpp"
+  }
+}
